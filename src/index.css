@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+/* Brand palette only. Clearing the default colours guarantees no stock green can leak in. */
+@theme {
+  --color-*: initial;
+
+  --color-cream: #f6efe5;
+  --color-offwhite: #fffcf7;
+  --color-espresso: #34231d;
+  --color-terracotta: #b95f3b;
+  --color-terracotta-deep: #9c4d2d;
+  --color-clay: #8a4527;
+  --color-caramel: #d9a66f;
+
+  --font-display: "Fraunces", Georgia, serif;
+  --font-sans: "Manrope", system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    @apply bg-cream font-sans text-espresso antialiased;
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-terracotta-deep);
+    outline-offset: 3px;
+  }
+
+  ::selection {
+    background: var(--color-caramel);
+    color: var(--color-espresso);
+  }
+}
+
+/* Motion is requested for the food strip and reviews only. Reduced-motion users get static, scrollable content. */
+@keyframes marquee-x {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes marquee-y-up {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes marquee-y-down {
+  from {
+    transform: translateY(-50%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.marquee-x {
+  animation: marquee-x 45s linear infinite;
+}
+
+.marquee-y-up {
+  animation: marquee-y-up 60s linear infinite;
+}
+
+.marquee-y-down {
+  animation: marquee-y-down 60s linear infinite;
+}
+
+.marquee-paused:hover .marquee-track,
+.marquee-paused:focus-within .marquee-track {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none !important;
+  }
+}
