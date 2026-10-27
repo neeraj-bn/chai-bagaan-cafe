@@ -1,5 +1,5 @@
 /*
- * Central content file for Chai Bagaan Café.
+ * Central content file for Chai Bagaan Cafe.
  *
  * Sources:
  * - Hours, phone, address, dayparts and menu categories: the cafe's promotional
@@ -15,11 +15,11 @@ const MAPS_QUERY = 'Chai+Bagaan+Cafe+Nallurhalli+Whitefield+Bengaluru'
 
 export const cafe = {
   name: 'Chai Bagaan',
-  fullName: 'Chai Bagaan Café',
-  tagline: 'Pure veg café and all-day dining',
+  fullName: 'Chai Bagaan Cafe',
+  tagline: 'Pure veg cafe and all-day dining',
   areaLine: 'Nallurahalli, Whitefield, Bengaluru',
   description:
-    'Chai Bagaan Café is a pure-veg café near Nallurahalli Lake in Whitefield, Bengaluru, serving breakfast, lunch, evening snacks, dinner and late-night bites.',
+    'Chai Bagaan Cafe is a pure-veg cafe near Nallurahalli Lake in Whitefield, Bengaluru, serving breakfast, lunch, evening snacks, dinner and late-night bites.',
   address: {
     lines: ['Near Nallurahalli Lake', 'Nallurahalli, Whitefield', 'Bengaluru, Karnataka, India'],
     locality: 'Bengaluru',
@@ -150,7 +150,7 @@ export const story = {
   quote:
     'Inspired by your love for our chai, we’re back with a brand-new look, an expanded menu, and the same warmth you’ve always loved.',
   body:
-    'Chai Bagaan Café is a pure-veg café near Nallurahalli Lake in Whitefield. From the first cup in the morning to late-night bites, it is a place to sit, eat and spend time together.',
+    'Chai Bagaan Cafe is a pure-veg cafe near Nallurahalli Lake in Whitefield. From the first cup in the morning to late-night bites, it is a place to sit, eat and spend time together.',
 }
 
 export const gallery = [

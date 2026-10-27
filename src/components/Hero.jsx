@@ -9,7 +9,7 @@ export default function Hero() {
         <div className="order-2 flex flex-col justify-center px-5 pb-14 pt-10 sm:px-8 lg:order-1 lg:col-span-5 lg:px-14 lg:py-24">
           <p className={`${eyebrowText} flex items-center gap-2`}>
             <Icon name="leaf" className="h-4 w-4" />
-            Pure veg café · Whitefield, Bengaluru
+            Pure veg cafe · Whitefield, Bengaluru
           </p>
           <h1
             id="hero-title"
@@ -33,7 +33,7 @@ export default function Hero() {
         <figure className="relative order-1 lg:order-2 lg:col-span-7 lg:min-h-[640px]">
           <img
             src="/images/hero-chai-bagaan-sign.jpg"
-            alt="The Chai Bagaan Café signboard on the building front"
+            alt="The Chai Bagaan Cafe signboard on the building front"
             width="1360"
             height="612"
             fetchPriority="high"

@@ -27,7 +27,7 @@ export default function Header() {
           <span className="whitespace-nowrap font-display text-lg leading-none tracking-tight sm:text-2xl">
             Chai Bagaan
             <span className="mt-1 hidden font-sans text-[0.65rem] sm:block font-bold uppercase tracking-[0.25em] text-clay">
-              Café · Whitefield
+              Cafe · Whitefield
             </span>
           </span>
         </a>

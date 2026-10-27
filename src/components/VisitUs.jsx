@@ -12,7 +12,7 @@ export default function VisitUs() {
         <div className="mt-14 grid lg:grid-cols-12">
           <div className="relative border-t-8 border-terracotta bg-offwhite p-7 sm:p-10 lg:col-span-5 lg:col-start-1 lg:row-start-1 lg:self-center lg:p-12">
             <address className="not-italic">
-              <p className="font-display text-3xl leading-tight">Chai Bagaan Café</p>
+              <p className="font-display text-3xl leading-tight">Chai Bagaan Cafe</p>
               <ul className="mt-4 space-y-1 text-lg text-espresso/90">
                 {cafe.address.lines.map((line) => (
                   <li key={line}>{line}</li>
@@ -77,7 +77,7 @@ export default function VisitUs() {
 
           <div className="mt-6 h-[360px] border border-espresso/20 sm:h-[440px] lg:col-span-7 lg:col-start-6 lg:row-start-1 lg:mt-0 lg:h-[600px]">
             <iframe
-              title="Map showing Chai Bagaan Café, Nallurahalli, Whitefield, Bengaluru"
+              title="Map showing Chai Bagaan Cafe, Nallurahalli, Whitefield, Bengaluru"
               src={cafe.links.mapEmbed}
               className="h-full w-full"
               loading="lazy"

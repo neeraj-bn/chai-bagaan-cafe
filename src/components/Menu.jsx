@@ -54,7 +54,7 @@ export default function Menu() {
       <PhotoBand
         id="menu-title"
         image="/images/cafe-arch-evening.jpg"
-        alt="Tables under the lit roof of the café courtyard at night"
+        alt="Tables under the lit roof of the cafe courtyard at night"
         eyebrow="Menu"
         title="Pure veg, across cuisines"
         position="center 60%"

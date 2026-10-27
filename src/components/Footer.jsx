@@ -41,7 +41,7 @@ export default function Footer() {
 
       <div className="border-t border-espresso/15">
         <div className="mx-auto flex max-w-7xl flex-col gap-2 px-5 py-6 text-sm text-espresso/85 sm:flex-row sm:justify-between lg:px-14">
-          <p>© {year} Chai Bagaan Café. All rights reserved.</p>
+          <p>© {year} Chai Bagaan Cafe. All rights reserved.</p>
           <p>100% pure veg</p>
         </div>
       </div>

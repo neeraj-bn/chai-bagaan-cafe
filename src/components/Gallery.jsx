@@ -16,7 +16,7 @@ export default function Gallery() {
         image="/images/cafe-night-crowd.jpg"
         alt="Guests seated under string lights at the outdoor dining area at night"
         eyebrow="Gallery"
-        title="Glimpses of the café"
+        title="Glimpses of the cafe"
         position="center 40%"
       />
       <div className="mx-auto max-w-7xl px-5 py-14 lg:px-14 lg:py-20">

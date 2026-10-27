@@ -26,7 +26,7 @@ export default function Story() {
           <blockquote className="mt-10 border-l-4 border-terracotta pl-6 font-display text-2xl leading-snug sm:text-3xl">
             {story.quote}
             <footer className="mt-4 font-sans text-sm font-bold uppercase tracking-[0.14em] text-clay">
-              From Chai Bagaan Café
+              From Chai Bagaan Cafe
             </footer>
           </blockquote>
           <p className="mt-8 text-lg leading-relaxed text-espresso/90">{story.body}</p>
